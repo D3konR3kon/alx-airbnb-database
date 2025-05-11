@@ -25,5 +25,5 @@
 
 ## Files in Repository
 - `ERD/requirements.md`: This file contains the documentation for the ERD design process.
-- `ERD/diagram.png`: The visual representation of the ERD.
+- `ERD/Database ER diagram.png`: The visual representation of the ERD.
 
