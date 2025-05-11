@@ -89,4 +89,13 @@ With these adjustments, the database schema is now in Third Normal Form (3NF):
 2. All non-key attributes depend on the entire primary key (2NF)
 3. No transitive dependencies exist (3NF)
 
-The only exception is the `total_price` field in the Booking table, which we've chosen to keep as a controlled denormalization for performance reasons. This is a common practice in real-world database design where strict adherence to normalization principles may be relaxed for performance optimization.
+The only exception is the `total_price` field in the Booking table, which I've chosen to keep as a controlled denormalization for performance reasons. This is a common practice in real-world database design where strict adherence to normalization principles may be relaxed for performance optimization.
+
+The database schema adheres to the principles of normalization and is in Third Normal Form (3NF). This ensures:
+- Minimal redundancy.
+- Optimal data integrity.
+- Improved query performance.
+
+## References
+- Airbnb Database Specification
+- Principles of Database Normalization
