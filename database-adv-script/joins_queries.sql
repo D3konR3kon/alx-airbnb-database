@@ -9,6 +9,7 @@ SELECT *
 FROM property AS p
 LEFT JOIN review AS r
 ON p.property_id = r.property_id;
+ORDER BY name;
 
 --Getting users and their bookings usings FULL OUTER JOIN
 SELECT *
