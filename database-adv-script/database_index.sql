@@ -1,3 +1,5 @@
+EXPLAIN ANALYZE
+
 -- Indexes for users
 CREATE INDEX idx_user_user_id ON "User"(user_id);
 CREATE INDEX idx_user_email ON "User" (email);
@@ -16,3 +18,4 @@ CREATE INDEX idx_property_price ON property(price);
 CREATE INDEX idx_property_name ON property(name);
 CREATE INDEX idx_property_host_id ON property(host_id);
 
+EXPLAIN ANALYZE
