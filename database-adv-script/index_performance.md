@@ -28,7 +28,7 @@ Evaluate the impact of adding indexes on query performance in the User, Booking,
 - Execution Time: 46.066 ms
 - Query Plan: Index Scan on booking property id
 
-### Query 2: Get all bookings for each user.
+#### Query 2: Get all bookings for each user.
 
 <strong>Before Indexing</strong>
 
@@ -42,7 +42,7 @@ Evaluate the impact of adding indexes on query performance in the User, Booking,
 
 
 
-### Query 3: Get upcoming bookings for a user
+#### Query 3: Get upcoming bookings for a user
 
 <strong>Before Indexing</strong>
 
